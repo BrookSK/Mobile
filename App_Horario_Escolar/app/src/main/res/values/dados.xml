@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dias">
+        <item>Segunda-Feira</item>
+        <item>Terça-Feira</item>
+        <item>Quarta-Feira</item>
+        <item>Quinta-Feira</item>
+        <item>Sexta-Feira</item>
+    </string-array>
+
+    <string-array name="segunda">
+        <item>1º BLOCO - DS</item>
+        <item>2º BLOCO - MOB1</item>
+    </string-array>
+
+    <string-array name="terca">
+        <item>1º BLOCO - PW</item>
+        <item>2º BLOCO - DS</item>
+    </string-array>
+
+    <string-array name="quarta">
+        <item>1º BLOCO - TCC</item>
+        <item>2º BLOCO - INGLES</item>
+    </string-array>
+
+    <string-array name="quinta">
+        <item>1º BLOCO - IP</item>
+        <item>2º BLOCO - BD</item>
+    </string-array>
+
+    <string-array name="sexta">
+        <item>1º BLOCO - PW</item>
+        <item>2º BLOCO - MOB1</item>
+    </string-array>
+</resources>

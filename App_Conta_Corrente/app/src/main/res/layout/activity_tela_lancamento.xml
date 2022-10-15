@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="br.gov.sp.etec.app_conta_corrente.TelaLancamento">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Débito \n (Saída)"
+                android:id="@+id/rdb_debito"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textSize="30dp"
+                android:textColor="#fa3535"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crédito \n (Entrada)"
+                android:id="@+id/rdb_credito"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textSize="30dp"
+                android:textColor="#264eff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp" />
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_descricao"
+            android:layout_gravity="center_horizontal"
+            android:hint="Digite a descrição:"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_valor"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:hint="Digite o valor:"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_data"
+            android:layout_gravity="center_horizontal"
+            android:hint="Digite a data:"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INCLUIR"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal"
+            android:onClick="incluir_clique"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</RelativeLayout>

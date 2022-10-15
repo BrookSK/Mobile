@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/comedia"
+            android:icon="@drawable/comedia"
+            android:title="COMÉDIA" />
+        <item
+            android:id="@+id/terror"
+            android:icon="@drawable/terror"
+            android:title="TERROR" />
+        <item
+            android:id="@+id/aventura"
+            android:icon="@drawable/aventura"
+            android:title="AVENTURA" />
+        <item
+            android:id="@+id/animacao"
+            android:icon="@drawable/animacao"
+            android:title="ANIMAÇAÕ" />
+    </group>
+
+
+</menu>

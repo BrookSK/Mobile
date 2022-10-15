@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.gov.sp.etec.app_conta_corrente" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <meta-data android:name="DATABASE" android:value="banco.db"/>
+        <meta-data android:name="DOMAIN_PACKAGE_NAME" android:value="br.gov.sp.etec.app_conta_corrente"/>
+
+        <activity android:name=".TelaPrincipal" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TelaLancamento" >
+        </activity>
+        <activity android:name=".TelaListarLancamento" >
+        </activity>
+        <activity android:name=".TelaAlterarExcluir" >
+        </activity>
+    </application>
+
+</manifest>
